@@ -88,7 +88,7 @@ const ProjectsSection = () => {
                     <p className="text-primary font-medium tracking-widest uppercase text-sm mb-4">Experience</p>
                     <h2 className="font-heading text-4xl md:text-5xl font-bold mb-6">Featured <span className="text-gradient">Work</span></h2>
                     <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-                        Key projects and milestones from my professional career at Tata Consultancy Services and Fitch Group.
+                        Key projects and milestones from my professional career at Tata Consultancy Services.
                     </p>
                 </motion.div>
 
