@@ -64,10 +64,15 @@ const ContactSection = () => {
                             <div className="space-y-4">
 
                                 {/* Email */}
-                                <a href="mailto:sajith.salesforcedev@gmail.com" className="flex items-center gap-4 text-muted-foreground hover:text-primary transition-colors group">
+                                {/* Email */}
+                                <a
+                                    href="mailto:sajith.salesforcedev@gmail.com"
+                                    className="flex items-center gap-4 text-muted-foreground hover:text-primary transition-colors group"
+                                >
                                     <div className="w-12 h-12 rounded-lg bg-secondary flex items-center justify-center group-hover:bg-primary/10 transition-colors">
                                         <Mail className="w-5 h-5" />
                                     </div>
+                                    {/* The text below is just what the user SEES */}
                                     <span>sajith.salesforcedev@gmail.com</span>
                                 </a>
 
