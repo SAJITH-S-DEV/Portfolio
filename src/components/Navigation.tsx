@@ -14,7 +14,7 @@ const Navigation = () => {
 
     const navLinks = [
         { name: "About", href: "#about" },
-        { name: "Experience", href: "#projects" }, // Renamed from Projects to Experience
+        { name: "Experience", href: "#projects" },
         { name: "Contact", href: "#contact" },
     ];
 
@@ -28,9 +28,42 @@ const Navigation = () => {
         >
             <div className="container px-6 mx-auto">
                 <div className="flex items-center justify-between h-20">
-                    {/* Updated Logo to your initials */}
-                    <a href="#" className="font-heading text-2xl font-bold text-gradient">SS.</a>
 
+                    {/* LOGO AREA */}
+                    <a href="#" className="flex items-center gap-3 group">
+
+                        {/* The Logo Container */}
+                        <div className="relative flex items-center justify-center">
+
+                            {/* 1. Cloud Icon (Golden) */}
+                            <svg
+                                viewBox="0 0 28 24"
+                                fill="currentColor"
+                                className="w-24 h-24 text-primary transition-transform group-hover:scale-105"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path d="M16.1 5.2c-1.3 0-2.4.6-3.2 1.6-.5-.3-1-.5-1.6-.5-1.6 0-3 1.3-3 3 0 .2 0 .3.1.5-1.7.3-3 1.8-3 3.6 0 2 1.7 3.6 3.7 3.6h9.9c2.2 0 4-1.8 4-4 0-2.1-1.6-3.8-3.7-4-.2-2.1-1.9-3.8-3.2-3.8z" />
+                            </svg>
+
+                            {/* 2. The Text Inside (Black, Lowercase, Rounded Font) */}
+                            <span
+                                className="absolute text-black select-none pt-2"
+                                style={{
+                                    fontSize: '11px',
+                                    fontFamily: '"Arial Rounded MT Bold", "Nunito", sans-serif', // Mimics the OG rounded font
+                                    fontWeight: 'bold',
+                                    fontStyle: 'italic', // Often the OG logo has a slight lean
+                                }}
+                            >
+                                salesforce
+                            </span>
+                        </div>
+
+                        {/* Your Initials */}
+                        <span className="font-heading text-2xl font-bold text-gradient -ml-2">SS.</span>
+                    </a>
+
+                    {/* Desktop Menu */}
                     <div className="hidden md:flex items-center gap-8">
                         {navLinks.map((link) => (
                             <a key={link.name} href={link.href} className="text-muted-foreground hover:text-foreground transition-colors font-medium">
@@ -42,11 +75,13 @@ const Navigation = () => {
                         </a>
                     </div>
 
+                    {/* Mobile Menu Button */}
                     <button className="md:hidden text-foreground p-2" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
                         {isMobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
                     </button>
                 </div>
 
+                {/* Mobile Menu Dropdown */}
                 <AnimatePresence>
                     {isMobileMenuOpen && (
                         <motion.div
