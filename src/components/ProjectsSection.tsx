@@ -5,22 +5,22 @@ import { Briefcase, Code, Database, Terminal } from "lucide-react";
 // Projects based on Resume Experience
 const projects = [
     {
-        title: "Southern California Edison",
-        role: "Project Lead / Developer",
-        description: "Led DCB & Workit development for Southern California Edison projects. Developed Apex/LWC solutions that reduced manual data entry by 40% and improved end-user efficiency by 25%.",
-        tags: ["Apex", "LWC", "Team Leadership"],
-        icon: Code,
-    },
-    {
-        title: "Enterprise Integrations",
-        role: "Systems Engineer",
-        description: "Managed complex system integrations with SAP, DM, and SharePoint. Successfully diagnosed and resolved critical HTTP 401 errors related to Salesforce certificate updates.",
-        tags: ["SAP CPI", "REST API", "Integration"],
+        title: "Cornerstone OnDemand",
+        role: "Senior Salesforce Engineer",
+        description: "Worked on Salesforce ITSM, a modern IT Service Management solution, with hands-on experience in designing, developing, and implementing key modules, including Service Request Management, Configuration Management Database (CMDB), Change Management, Incident Management, and Problem Management. Experienced in building and customizing ITSM solutions to streamline service operations, improve workflows, and enhance overall service delivery.",
+        tags: ["Service Request", "CMDB", "Salesforce ITSM"],
         icon: Terminal,
     },
     {
+        title: "Southern California Edison",
+        role: "Project Lead / Developer",
+        description: "Led DCB & Workit development for Southern California Edison projects. Developed Apex/LWC solutions that reduced manual data entry by 40% and improved end-user efficiency by 25%.Managed complex system integrations with SAP, DM, and SharePoint. Successfully diagnosed and resolved critical HTTP 401 errors related to Salesforce certificate updates",
+        tags: ["Apex", "LWC", "Integration"],
+        icon: Code,
+    },
+    {
         title: "DevOps & CI/CD Pipeline",
-        role: "Release Manager",
+        role: "Developer",
         description: "Orchestrated deployment processes across 5 development teams using Jenkins. Decreased deployment time by 35% and reduced post-release defects by 99%.",
         tags: ["Jenkins", "Git", "Deployment"],
         icon: Database,

@@ -40,7 +40,7 @@ const HeroSection = () => {
                         className="text-muted-foreground text-lg md:text-xl max-w-2xl mx-auto mb-12 leading-relaxed"
                     >
                         Building scalable enterprise solutions on the Salesforce Platform.
-                        Expert in Apex, LWC, and complex integrations with a focus on optimizing workflows.
+                        Expert in Apex, LWC, Salesforce ITSM , Agentforce and complex integrations with a focus on optimizing workflows.
                     </motion.p>
 
                     <motion.div

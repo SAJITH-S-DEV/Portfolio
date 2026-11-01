@@ -108,7 +108,7 @@ const ContactSection = () => {
                                     <div className="w-12 h-12 rounded-lg bg-secondary flex items-center justify-center">
                                         <MapPin className="w-5 h-5" />
                                     </div>
-                                    <span>Trivandrum, Kerala, India</span>
+                                    <span>Ernakulam, Kerala, India</span>
                                 </div>
                             </div>
                         </div>

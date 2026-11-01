@@ -10,6 +10,7 @@ const AboutSection = () => {
         "Apex & Triggers",
         "Lightning Web Components",
         "Agentforce AI",
+        "Salesforce ITSM",
         "Jenkins CI/CD",
         "REST/SOAP APIs",
         "Sales/Service Cloud",
@@ -52,7 +53,7 @@ const AboutSection = () => {
                             Driving business efficiency with <span className="text-gradient">Salesforce</span>
                         </h2>
                         <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-                            With 4 years of experience as a Systems Engineer at <strong>Tata Consultancy Services</strong>, I specialize in building scalable solutions that solve real business problems. I have a proven track record of co-leading development projects and optimizing complex workflows.
+                            With 5 years of experience as a Senior Salesforce Engineer at <strong>Milestone Technologies & Tata Consultancy Services</strong>, I specialize in building scalable solutions that solve real business problems. I have a proven track record of co-leading development projects and optimizing complex workflows.
                         </p>
                         <p className="text-muted-foreground text-lg leading-relaxed mb-6">
                             My expertise spans the full development lifecycle—from writing efficient Apex code to orchestrating CI/CD pipelines with Jenkins. I am passionate about reducing manual data entry and improving end-user efficiency.
